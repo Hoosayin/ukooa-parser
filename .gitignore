@@ -1,0 +1,73 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Exclude VSCode workspace and project files
+.vscode/
+
+# Exclude VSCode settings and extensions configuration files
+.settings.json
+.extensions.json
+
+# Exclude VSCode user-specific settings
+.vscode/settings.json
+
+# Exclude the `.vscode-server` directory (used for Remote Development extension)
+.vscode-server/
+
+# Exclude the `.vscode-test` directory (used for testing extensions)
+.vscode-test/
+
+# Exclude the `.vscode-test-explorer` directory (used for test explorer extension)
+.vscode-test-explorer/
+
+# Exclude `.vscodeignore` file (used for configuring file exclusions)
+.vscodeignore
+
+# Exclude `.vsix` files (Visual Studio Code extensions)
+*.vsix
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+jsoncpp/build/
+
+[Bb][Uu][Ii][Ll][Dd]/
