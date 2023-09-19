@@ -19,9 +19,7 @@ The program accepts the following command-line arguments:
 - `-s` followed by the names of input UKOOA files separated by spaces.
 - `-o` followed by the name of the output JSON file.
 
-## Configuration
-
-**AppSettings.config** is read once, and a Singleton pattern is used to make the configuration settings available to other classes.
+**AppSettings.config** is read once, and a Singleton pattern is used to make the configuration settings available to other classes. **Ukooa** class represents the UKOOA structure. **UkooaParser** is responsible for parsing each source UKOOA file in a separate thread.
 
 ## Building and Running
 
