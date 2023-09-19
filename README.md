@@ -25,7 +25,7 @@ The program accepts the following command-line arguments:
 
 ## Building and Running
 
-### Configuration (Modify CMake Generator as Needed)
+### Configure (Modify CMake Generator as Needed)
 
 For Linux:
 
@@ -39,7 +39,7 @@ For Windows:
 configure.bat
 ```
 
-### Building (Make Appropriate Generator Choice)
+### Build (Make Appropriate Generator Choice)
 
 For Linux:
 
@@ -53,7 +53,7 @@ For Windows:
 build.bat
 ```
 
-### Running
+### Run
 
 For Linux:
 
@@ -64,7 +64,7 @@ For Linux:
 For Windows:
 
 ```bash
-Run.bat
+run.bat
 ```
 
 Feel free to configure, build, and run the project as needed for your environment.
